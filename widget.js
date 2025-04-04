@@ -44,19 +44,25 @@
 
         .custom-widget-input {
           flex: 1;
+          background-color: white;
+          color: black;
+          border: none;
           padding: 16px;
           border-radius: 8px;
-          border: none;
           font-size: 16px;
           font-weight: bold;
-          color: #1e1e2f;
+        }
+
+        .custom-widget-input::placeholder {
+          color: #333;
+          opacity: 1;
         }
 
         .custom-widget-button {
           padding: 16px 24px;
           border-radius: 8px;
           border: none;
-          background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+          background: linear-gradient(135deg, #1e3a8a, #3b82f6); /* dark blue gradient */
           color: white;
           font-weight: bold;
           font-size: 16px;
