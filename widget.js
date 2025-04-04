@@ -111,8 +111,7 @@
     messageContainer.textContent = 'Subscribing...';
     messageContainer.className = 'custom-widget-message';
 
-    const substackUrl = config.substackUrl.replace(/^https?:\/\//, '');
-    const subscribeUrl = `https://${substackUrl}/api/v1/free`;
+    const subscribeUrl = 'https://snowy-wood-7c7d.scalit-team.workers.dev/';
 
     fetch(subscribeUrl, {
       method: 'POST',
