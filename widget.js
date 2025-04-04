@@ -29,23 +29,22 @@
     <div class="custom-widget">
       <style>
         .custom-widget {
-          display: flex;
-          justify-content: flex-start; /* align to left */
-          padding: 20px;
+          width: 100%;
+          padding: 20px 0;
           background-color: transparent;
         }
 
         .custom-widget-form {
           display: flex;
+          gap: 12px;
           width: 100%;
           max-width: 700px;
-          gap: 12px;
         }
 
         .custom-widget-input {
           flex: 1;
-          background-color: white;
-          color: black;
+          background-color: white !important;
+          color: black !important;
           border: none;
           padding: 16px;
           border-radius: 0;
@@ -54,7 +53,7 @@
         }
 
         .custom-widget-input::placeholder {
-          color: #333;
+          color: black !important;
           opacity: 1;
         }
 
@@ -76,7 +75,7 @@
         .custom-widget-message {
           margin-top: 10px;
           font-size: 14px;
-          text-align: center;
+          text-align: left;
           color: #fff;
         }
 
