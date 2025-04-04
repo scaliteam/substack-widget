@@ -30,7 +30,7 @@
       <style>
         .custom-widget {
           display: flex;
-          justify-content: center;
+          justify-content: flex-start; /* align to left */
           padding: 20px;
           background-color: transparent;
         }
@@ -48,7 +48,7 @@
           color: black;
           border: none;
           padding: 16px;
-          border-radius: 8px;
+          border-radius: 0;
           font-size: 16px;
           font-weight: bold;
         }
@@ -60,9 +60,9 @@
 
         .custom-widget-button {
           padding: 16px 24px;
-          border-radius: 8px;
+          border-radius: 0;
           border: none;
-          background: linear-gradient(135deg, #1e3a8a, #3b82f6); /* dark blue gradient */
+          background: linear-gradient(135deg, #1e3a8a, #3b82f6);
           color: white;
           font-weight: bold;
           font-size: 16px;
